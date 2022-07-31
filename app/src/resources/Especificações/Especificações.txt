@@ -1,0 +1,48 @@
+Descrição:
+    Aplicativo para gerenciamento de tarefas e as tarefas envolvidas no projeto.
+
+Objetivo:
+    Resolver a questão de organização de tarefas em um projeto ou em vários projetos.
+
+Entidades:
+    -Tarefa:
+        Nome;
+        Descrição;
+        Status;
+        Observações;
+        Prazo;
+        Data de criação;
+        Data de atualização;
+
+    -Projeto:
+        Nome;
+        Tarefa(s);
+        Descrição;
+        Data de criação;
+        Data de atualização;
+
+Funcionalidade:
+    Criação;
+    Cadastro; 
+    Modificação; 
+    Exclusão;
+    
+
+Requisitos:
+    Permitir criação de projeto(s);
+    Permitir criação de tarefa(s);
+    Permitir cadastro de projeto(s);
+    Permitir cadastro de tarefa(s);
+    Permitir alterar projeto(s);
+    Permitir alterar a(s) tarafa(s);
+    Permitir deletar projeto(s);
+    Permitir deletar tarefa(s);
+
+Regras de negócio:
+    O sistema não irá conter sistema de login;
+    O sistema não terá conceito de usuário;
+    Toda a(s) tarefa(s) deverá estar dentro de um projeto;
+
+Tecnologias utilizadas:
+    Java;
+    MySql;
